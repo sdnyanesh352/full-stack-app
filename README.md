@@ -57,13 +57,11 @@ Open Project into STS
 
 ## FAQ
 
-#### Question 1
+#### Question 1) Can I Contribute to this project
 
-Answer 1
+Answer => Sure . you are welcome.
 
-#### Question 2
 
-Answer 2
 
 
 ## Feedback
@@ -73,5 +71,5 @@ If you have any feedback, please reach out to us at fake@fake.com
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
-
+- [@sdnyanesh352](https://www.github.com/sdnyanesh352)
+- [@ShubhamMudhalwadkar96](https://www.github.com/ShubhamMudhalwadkar96)
