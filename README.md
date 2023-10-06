@@ -1,5 +1,6 @@
 # Full-stack-app
 
+
 ## TECKSTACK
 
 - Springboot 
@@ -11,6 +12,7 @@
 - KAFKA
 - JUNIT
 - React, Angular
+- git 
 
 ## Functionality
 
@@ -18,6 +20,7 @@
 - Report Generation (in Exel, PDF)
 - Authentication (Jwt,SSO)
 - Microservices, Monolithic app
+- SOLID principal
 
 
 
