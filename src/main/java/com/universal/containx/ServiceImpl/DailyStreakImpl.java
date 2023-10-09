@@ -1,14 +1,14 @@
-package com.universal.containx.model;
+package com.universal.containx.ServiceImpl;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
-public class DailyStreak {
+public class DailyStreakImpl {
 
     private LocalDate lastDate;
     private int streakCount;
 
-    public DailyStreak(LocalDate lastDate, int streakCount) {
+    public DailyStreakImpl(LocalDate lastDate, int streakCount) {
         this.lastDate = lastDate;
         this.streakCount = streakCount;
     }
