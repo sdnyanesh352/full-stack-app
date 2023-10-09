@@ -2,6 +2,8 @@ package com.universal.containx.model;
 
 import java.util.Date;
 
+import com.universal.containx.enums.TransactionTypeEnums;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -39,7 +41,7 @@ private User user;
 
 @Enumerated(EnumType.STRING)
 @Column(name = "transaction_type", nullable = false)
-private TransactionType transactionType = TransactionType.REFERRAL;
+private TransactionTypeEnums transactionTypeEnums = TransactionTypeEnums.REFERRAL;
 
 @Column(name = "amount", nullable = false)
 private Integer amount;
@@ -51,9 +53,9 @@ private String source;
 @Temporal(TemporalType.TIMESTAMP)
 private Date createdDate = new Date();
 
-public CoinTransaction(User user, TransactionType transactionType, Integer amount) {
+public CoinTransaction(User user, TransactionTypeEnums transactionType, Integer amount) {
     this.user = user;
-    this.transactionType = transactionType;
+    this.transactionTypeEnums = transactionType;
     this.amount = amount;
 }
 }
